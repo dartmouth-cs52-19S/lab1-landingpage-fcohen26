@@ -10,6 +10,21 @@ For this project, I created a home page for an imaginary "boredom" page, which i
 
 ## Other Screen Caps
 
+### Dropdown menus in compressed mode:
+![](Dropdown1.png)
+![](Dropdown2.png)
+![](Dropdown3.png)
+
+### Hover effects and stylized buttons
+![](Hover2.png)
+![](Hover2.png)
+![](Hover3.png)
+![](Hover4.png)
+
+### Responsive compressed/mobile design
+![](Responsive1.png)
+![](Responsive2.png)
+
 ## URL's to mimicked websites:
 * https://flourbakery.com/
 * https://www.starbucks.com/
