@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cover {
+    background-color: #F7F5FB;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#permanent_footer {
+    background-color: #FFEFBD;
+    cursor: pointer;
+}
+li.perm_footer {
+    display: inline;
+}
+#header {
+    opacity: 90%;
+    /* background-color: #E1F4CB */
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+}
+.explore_button {
+    display: flex;
+    align-items: right;
+}
+.email_submit {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#email_input {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 250px;
+}
+#zip_input {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 100px;
+}
+/* #subscribe_text_p {
+    margin-bottom: 100px;
+} */
+#games {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    background-color: #EFAAC4;
+    height: 500px;
+}
+.game_imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.game_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.game1 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.game2 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.game3 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+#articles {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    background-color: #B7B6C2;
+    height: 500px;
+
+}
+.article_imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.articles_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.entertainment {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.news {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.sports {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+#photos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    background-color: #DBBEA1;
+    height: 500px;
+
+}
+.photos_imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.photos_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pic1 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.pic2 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+.pic3 {
+    height: 200px;
+    width: 400px;
+    border-style: inset;
+}
+#social_subsribe_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #E8F9F7;
+}
+#social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 2.5em;
+    padding: 10px;
+    margin: 10px;
+}
+i {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+input {
+    height: 25px;
+    /* width: 100px; */
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    border-radius: 7px;
+}
+.submit_email_button {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: #2D3A3A;
+    color: white;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.submit_email_button:hover {
+    background-color: #415454;
+}
+#footer {
+    background-color: #F7F5FB
+}
+/* #footer_wide {
+    margin: 20px;
+
+} */
+nav {
+    display: inline-block;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding: 10px;
+}
+#explore{
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 12px;
+    /* background-color: #EFAAC4; */
+    background-color: transparent;
+    border-color: black;
+    border-width: 2.5px;
+    /* height: 50px;
+    width: 50px; */
+}
+
+#explore:hover {
+    background-color: #788585;
+}
+
+/* https://blog.teamtreehouse.com/create-an-absolute-basic-mobile-css-responsive-navigation-menu */
+@media only screen and (max-width : 640px) {
+    /*https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390 */
+    .collapsible-menu label {
+        position: relative;
+        display: block;
+        background: url(img/menu_icon.png) no-repeat left;
+        background-size: contain, cover;
+        /* width: 0.01px;
+        height: 0.01px; */
+        padding: 10px 0 10px 50px;
+    }
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 0 0 50px;
+    }
+    .collapsible-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .collapsible-menu a {
+        display: block;
+        padding: 10px;
+    }
+    /*Icons made by https://www.flaticon.com/authors/cole-bemis from www.flaticon.com/ */
+    #footer_wide {
+        display: none;
+    }
+    #footer_narrow {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        cursor: pointer;
+        /* height: 150px; */
+        overflow: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    /* .collapsible-menu-about label {
+        position: relative;
+        display: block;
+        padding: 10px 0 10px 50px;
+    } */
+    .menu-content-about {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 0 0 50px;
+    }
+    .menu-content-careers {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 0 0 50px;
+    }
+    .menu-content-online {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 0 0 50px;
+    }
+    /* .collapsible-menu-about ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .collapsible-menu-about a {
+        display: block;
+        padding: 10px;
+    }  */
+    #about {
+        margin-bottom: 50px 50px 0px 0px;
+    }
+    .narrow_item {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+    }
+    .subscibe_call {
+        display: flex;
+        /* justify-content: flex-end; */
+        flex-direction: column;
+        align-content: left;
+    }
+    .game_imgs {
+        flex-direction: column;
+    }
+    .article_imgs {
+        flex-direction: column;
+    }
+    .photos_imgs {
+        flex-direction: column;
+    }
+    #games {
+        height: 900px;
+    }
+    #articles {
+        height: 900px;
+    }
+    #photos {
+        height: 900px;
+    }
+    #social_subsribe_panel {
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width : 640px) {
+    .collapsible-menu label {
+        display: none;
+    }
+    li.menu {
+        display: inline-block;
+    }
+    /* li.collapsible-menu{
+        display: inline-block
+    } */
+    #footer_narrow {
+        display: none;
+    }
+    #footer_wide_footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    .subscribe_call {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    li.menu:hover {
+        border-bottom: solid #75B9BE;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+.menu-content {
+    cursor: pointer;
+}
+.collapsible-menu label {
+    cursor: pointer;
+}
+input#menu {
+    display: none
+}
+input#menu-a {
+    display: none
+}
+input#menu-b {
+    display: none
+}
+input#menu-c {
+    display: none
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+input:checked ~ .menu-content-about {
+    max-height: 100%;
+}
+input:checked ~ .menu-content-careers {
+    max-height: 100%;
+}
+input:checked ~ .menu-content-online {
+    max-height: 100%;
+}
+/* https://www.w3schools.com/css/css_image_transparency.asp */
+img {
+    opacity: 0.5;
+  }
+  
+img:hover {
+    opacity: 1.0;
+}
+li.title {
+    font-weight: bold;
+}
+div.collapsible-menu-about {
+    margin-bottom: 10px;
+}
+div.collapsible-menu-careers {
+    margin-bottom: 10px;
+}
+div.collapsible-menu-online {
+    margin-bottom: 10px;
+}
+
+
+/* .signup_submit {
+    float: right;
+} */

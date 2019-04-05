@@ -2,17 +2,30 @@
 <html>
     <div class="cover">
             <head>
-                    <!-- <link rel="stylesheet" type="text/css" href="/assets/style.css" > -->
+                    <link rel="stylesheet" type="text/css" href="/assets/style.css" >
                     <link rel="stylesheet" type="text/css" href="/assets/img/trees.jpg" >
-                    <title>cs52 website</title>
-                    <!-- load in CSS-->
+                    <link rel="stylesheet" type="image/png" sizes="16x16" href="/assets/img/menu_icon.png" >
+                    <link rel="stylesheet" type="image/png" sizes="16x16" href="/assets/img/background.jpg" >
+                    <!-- <link rel="stylesheet" type="image/png" sizes="16x16" href="/assets/img/game1.gif" > -->
+                    <!-- <link rel="stylesheet" type="image/png" sizes="16x16" href="/assets/img/game2.gif" >
+                    <link rel="stylesheet" type="image/png" sizes="16x16" href="/assets/img/game3.gif" > -->
+                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+                    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">   
+                    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
                     <!-- <link href='https://fonts.googleapis.com/css?family=Open+sans' rel='stylesheet' type='text/css' /> -->
                 </head>
-                <body>            
-                    <nav>
-                        <a href="#">ABOUT</a> |
-                        <a href="#">SHOP</a> |
-                        <a href="#">CONTACT</a> |
+                <body>
+                    <nav class="collapsible-menu">
+                        <input type="checkbox" id="menu">
+                        <!-- <i id="hamburger" class="fas fa-bars"></i> -->
+                        <label for="menu">Menu</label>
+                        <ul class="menu-content">
+                            <li class="menu"><a href="#"></a>About</li>
+                            <li class="menu"><a href="#"></a>Shop</li>
+                            <li class="menu"><a href="#"></a>Contact</li>
+                        </ul>
                     </nav>
                     <div id="header">
                             <h1>
@@ -21,65 +34,215 @@
                             <h2>
                                 For all the entertainment the internet has to offer.
                             </h2>
-                            <!-- <div class="button_wrap">
-                                <span class=button button_cta secondary">
-                                    <a href="#">SUBSCRIBE</a>
-                                </span>
-                            </div> -->
-                            <p>Want a daily boredom email?</p>
-                            <input type="text" placeholder="Email Address">
-                            <button type="button">submit</button>
-                            <!-- <ol class="form">
-                                <li class="input">
-                                    <input class="singup" name="signup_email" placeholder="Email address">
-                                </li>
-                                <li class="signup_submit">
-                                    <span class="button form_button">
-                                        <button type="submit">SUBSCRIBE</button>
-                                    </span>
-                                </li>
-                            </ol> -->
+                            <div class="explore_button">
+                                <button id="explore" type="button">EXPLORE!</button>
+                            </div>
                     </div>
                     <div id="games">
-                        <h2>
-                            Games
-                        </h2>
+                        <div class="game_text">
+                            <h2>
+                                Games
+                            </h2>
+                            <p>
+                                "Click to play games!"
+                            </p>
+                        </div>
+                        <div class="game_imgs">
+                            <div class="game1_div">
+                                <img class="game1" src="assets/img/game1.jpg">
+                                <h2>
+                                    Card Games
+                                </h2>
+                                <p>
+                                    Click to browse card games
+                                </p>
+                            </div>
+                            <div class="game2_div">
+                                <img class="game2" src="assets/img/game2.jpg">
+                                <h2>
+                                    Arcade Games
+                                </h2>
+                                <p>
+                                    Click to browse arcade games
+                                </p>
+                            </div>
+                            <div class="game3_div">
+                                <img class="game3" src="assets/img/game3.jpg">
+                                    <h2>
+                                        Puzzle Games
+                                    </h2>
+                                    <p>
+                                        Click to browse puzzle games
+                                    </p>
+                            </div>
+                        </div>
                     </div>
                     <div id="articles">
-                        <h2>
-                            Articles
-                        </h2>
+                        <div class="articles_text">
+                            <h2>
+                                Articles
+                            </h2>
+                            <p>
+                                "Click to browse topics!"
+                            </p>
+                        </div>
+                        <div class="article_imgs">
+                            <div class="entertainment_div">
+                                <img class="entertainment" src="assets/img/entertainment.jpg">
+                                <h2>
+                                    Entertainment Articles
+                                </h2>
+                                <p>
+                                    Click to browse entertainment articles
+                                </p>
+                            </div>
+                            <div class="news_div">
+                                <img class="news" src="assets/img/news.jpg">
+                                <h2>
+                                    News Articles
+                                </h2>
+                                <p>
+                                    Click to browse news articles
+                                </p>
+                            </div>
+                            <div class="sports_div">
+                                <img class="sports" src="assets/img/sports.jpg">
+                                <h2>
+                                    Sports Articles
+                                </h2>
+                                <p>
+                                    Click to browse sports articles
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div id="photos">
-                        <h2>
-                            Photos
-                        </h2>
+                        <div class="photos_text">
+                            <h2>
+                                Photos
+                            </h2>
+                            <p>
+                                "Click to explore some photography!"
+                            </p>
+                        </div>
+                        <div class="photos_imgs">
+                            <div class="random_div e">
+                                <img class="pic1" src="assets/img/pic1.jpg">
+                                <h2>
+                                    Random
+                                </h2>
+                                <p>
+                                    "Click to explore some more random photography :)"
+                                </p>
+                            </div>
+                            <div class="cityscape_div">
+                                <img class="pic2" src="assets/img/pic2.jpg">
+                                <h2>
+                                    Cityscapes
+                                </h2>
+                                <p>
+                                    "Click to explore some more cityscape photography"
+                                </p>
+                            </div>
+                            <div class="landscape">
+                                <img class="pic3" src="assets/img/pic3.jpg">
+                                <h2>
+                                    Landscapes
+                                </h2>
+                                <p>
+                                    "Click to explore some more landscape photography"
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <footer id="footer">
-                        <ul>
-                            <li>Link heading</li>
-                            <li>first link</li>
-                            <li>second link</li>
-                            <li>third link</li>
+                    <div id="social_subsribe_panel">
+                        <div id="social_media">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-google-plus-square"></i>
+                            <i class="fab fa-pinterest"></i>
+                        </div>
+                        <div class="subscribe_call">
+                            <div class="subsribe_text">
+                                <p id="subsribe_text_p">Want a daily boredom email?</p>
+                            </div>
+                            <div class="email_submit">
+                                <input id="email_input" type="text" placeholder="Email address">
+                                <input id="zip_input" type="text" placeholder="Zip code">
+                                <button class="submit_email_button" type="button">GET STARTED</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer_wide">
+                        <footer id="footer_wide_footer">
+                            <ul id="list1">
+                                <li class="title">About the Site</li>
+                                <li>Company</li>
+                                <li>Investors</li>
+                                <li>Press</li>
+                            </ul>
+                            <ul id="list2">
+                                <li class="title">Careers</li>
+                                <li>Working with Us</li>
+                                <li>Applications</li>
+                                <li>Benefits</li>
+                            </ul>
+                            <ul id="list3">
+                                <li class="title">Online Presence</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>LinkedIn</li>
+                            </ul>
+                        </footer>
+                    </div>
+                    <div id="footer_narrow">
+                        <!-- <footer id="footer_narrow_footer"> -->
+                            <!-- <ul> -->
+                                    <div class="collapsible-menu-about">
+                                        <input type="checkbox" id="menu-a">
+                                        <!-- <i id="hamburger" class="fas fa-bars"></i> -->
+                                        <label id="about" for="menu-a">ABOUT THE SITE</label>
+                                        <div class="menu-content-about">
+                                            <ul>
+                                                <li class="menu-a"><a href="#"></a>Company</li>
+                                                <li class="menu-a"><a href="#"></a>Investors</li>
+                                                <li class="menu-a"><a href="#"></a>Press</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-menu-careers">
+                                        <input type="checkbox" id="menu-b">
+                                        <!-- <i id="hamburger" class="fas fa-bars"></i> -->
+                                        <label for="menu-b">CAREERS</label>
+                                        <div class="menu-content-careers">
+                                            <ul>
+                                                <li class="menu-b"><a href="#"></a>Working with Us</li>
+                                                <li class="menu-b"><a href="#"></a>Applications</li>
+                                                <li class="menu-b"><a href="#"></a>Benefits</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                        <div class="collapsible-menu-online">
+                                            <input type="checkbox" id="menu-c">
+                                            <!-- <i id="hamburger" class="fas fa-bars"></i> -->
+                                            <label for="menu-c">ONLINE PRESENCE</label>
+                                            <div class="menu-content-online">
+                                                <ul>
+                                                    <li class="menu-c"><a href="#"></a>Twitter</li>
+                                                    <li class="menu-c"><a href="#"></a>Instagram</li>
+                                                    <li class="menu-c"><a href="#"></a>LinkedIn</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                    </div>
+                    <div id="permanent_footer">
+                        <ul id="list4">
+                            <li class="perm_footer">Private Policy</li>
+                            <li class="perm_footer">Terms of Use</li>
+                            <li class="perm_footer">Contact</li>
                         </ul>
-                        <ul>
-                            <li>Link heading</li>
-                            <li>first link</li>
-                            <li>second link</li>
-                            <li>third link</li>
-                        </ul>
-                        <ul>
-                            <li>Link heading</li>
-                            <li>first link</li>
-                            <li>second link</li>
-                            <li>third link</li>
-                        </ul>
-                        <ul>
-                            <li>Private Policy</li>
-                            <li>Terms of Use</li>
-                            <li>Contact</li>
-                        </ul>
-                    </footer>
+                    </div>
                 </body>
     </div>
 </html>
